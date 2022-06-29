@@ -18,3 +18,8 @@ fetch('https://reqres.in/api/users')
             </li>
         `
     });
+    
+    console.log(markup);
+    document.querySelector('.list-container').innerHTML = markup.join('');
+  
+})
